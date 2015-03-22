@@ -328,7 +328,7 @@ ul#nav ul li a:hover, ul#nav li.selected a:hover, ul#nav li.selected a:focus
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;}
   
 .content_container
-{ width: 320px;
+{ width: 100%;
   padding: 5px;
   margin-right: 10px;
   float: left;}
@@ -353,7 +353,7 @@ ul#nav ul li a:hover, ul#nav li.selected a:hover, ul#nav li.selected a:focus
   text-shadow: 1px 1px #535353;
   color: #fff;}
 
-#footer a, #footer a:hover
+#footer a, #footer .copyright, #footer a:hover
 { text-shadow: 1px 1px #535353;
   color: #fff;
   text-decoration: none;
