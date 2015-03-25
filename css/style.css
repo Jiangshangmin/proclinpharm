@@ -28,11 +28,11 @@ h1, h2, h3, h4, h5, h6
   margin: 0 0 10px 0;}
 
 h2
-{ font: normal 165% Arial, Helvetica, sans-serif;
+{ font: normal 125% Arial, Helvetica, sans-serif;
   color: #1D1D1D;}
 
 h3
-{ font: normal 130% Arial, Helvetica, sans-serif;
+{ font: normal 120% Arial, Helvetica, sans-serif;
   color: #1D1D1D;}
 
 h4, h5, h6
@@ -71,6 +71,56 @@ ol li
 #main, #header, #banner, #menubar, #site_content, #footer, #slideshow
 { margin-left: auto; 
   margin-right: auto;}
+#header
+{ 
+  height: 70px;
+  margin-left: 10px;
+  background: transparent;
+  text-align: center;}
+
+#company_log {
+  margin-top: 20px;
+  width: 60px;
+}
+
+#site_heading
+{ height: 120px;
+  }  
+  
+.left {
+  float: left;
+  width: 200px;
+  text-align: center
+}
+.left H1 {
+  font: bold 240% arial, sans-serif;
+  color: #098EFF;
+  letter-spacing: -3px;
+  background: transparent;
+}
+
+.right {
+  width: 715px;
+  float: right;
+  
+  border-left: solid 2px #f5f5f5;
+  margin: 20px 10px 20px 0;
+  padding-left: 10px;
+  height: 77px;
+}
+#localWebsite {
+  float: left;
+}
+#localWebsite p.first{
+  font: 19px/1em "avalonMedium", arial, sans-serif;
+  color: #b9b9b9;
+  margin-top:10px;
+}
+#localWebsite p.last{
+  font: 26px/1em "avalonXlight", arial, sans-serif;
+  color: #bababa;
+  
+}
 
 #main
 { background: transparent;}
@@ -89,7 +139,7 @@ ol li
 { width: 940px;
   position: relative;
   height: 50px;
-  padding: 15px 0 0 0;
+  padding: 0 0 0 0;
   background: transparent;}
   
 #welcome
@@ -133,83 +183,11 @@ ol li
   
 #menubar
 { width: 940px;
-  height: 50px;
+  height: 45px;
+  padding-top: 25px;
   text-align: center; 
   margin: 0 auto;
-  }   
-  
-/**
-Stylesheet for SooperFish by www.SooperThemes.com
-Author: Jurriaan Roelofs
-**/
-
-/* Configuration of menu width */
-html body ul.sf-menu ul,html body ul.sf-menu ul li { 
-  width: 200px;
-}
-
-html body ul.sf-menu ul ul { 
-  margin: 0 0 0 200px;
-}
-
-/* Framework for proper showing/hiding/positioning */z
-ul.sf-menu,ul.sf-menu * { 
-  margin: 0;
-  padding: 0;
-}
-
-ul.sf-menu { 
-  display: block;
-  position: relative;
-}
-  
-ul.sf-menu li { 
-  display: block;
-  list-style: none;
-  float: left;
-  position: relative;
-}
-  
-ul.sf-menu li:hover { 
-  visibility: inherit; /* fixes IE7 'sticky bug' */ 
-}
-
-ul.sf-menu a { 
-  display: block;
-  position: relative;
-}
-  
-ul.sf-menu ul { 
-  position: absolute;
-  left: 0;
-  width: 150px; 
-  top: auto;
-  left: -999999px;
-}
-
-ul.sf-menu ul li { 
-  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
-  width: 150px;
-}
-  
-ul.sf-menu ul ul { 
-  top: 0;
-  margin: 0 0 0 150px;
-}
-
-ul.sf-menu li:hover ul,ul.sf-menu li:focus ul,ul.sf-menu li.sf-hover ul, 
-ul.sf-menu ul li:hover ul,ul.sf-menu ul li:focus ul,ul.sf-menu ul li.sf-hover ul,
-ul.sf-menu ul ul li:hover ul,ul.sf-menu ul ul li:focus ul,ul.sf-menu ul ul li.sf-hover ul,
-ul.sf-menu ul ul ul li:hover ul,ul.sf-menu ul ul ul li:focus ul,ul.sf-menu ul ul ul li.sf-hover ul { 
-  left: auto;
-}
-  
-ul.sf-menu li:hover ul ul,ul.sf-menu li:focus ul ul,ul.sf-menu li.sf-hover ul ul,
-ul.sf-menu ul li:hover ul ul,ul.sf-menu ul li:focus ul ul,ul.sf-menu ul li.sf-hover ul ul,
-ul.sf-menu ul ul li:hover ul ul,ul.sf-menu ul ul li:focus ul ul,ul.sf-menu ul ul li.sf-hover ul ul,
-ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu ul ul ul li.sf-hover ul ul { 
-  left: -999999px;
-}
+  background: #0183F0} 
 
 /* autoArrows CSS */
 span.sf-arrow { 
@@ -276,6 +254,63 @@ ul#nav ul li a
 ul#nav ul li a:hover, ul#nav li.selected a:hover, ul#nav li.selected a:focus  
 { color: #000; 
   background: none;}
+ul#menu
+{ 
+  margin: 0;}
+
+ul#menu li
+{ padding: 0 0 0 0px;
+  list-style: none;
+  margin: 2px 0 0 0;
+  display: inline;
+  background: transparent;}
+
+ul#menu li a
+{ font-size: 130%;
+  letter-spacing: -1px;
+  height: 35px;
+  padding: 15px 20px 0 20px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  background: transparent;} 
+
+ul#menu li.current
+{ margin: 2px 0 0 0;}
+
+ul#menu li.current a
+{ text-decoration: underline;}
+
+ul#menu li a:hover
+{ text-decoration: underline;}ul#menu
+{ 
+  margin: 0;}
+
+ul#menu li
+{ padding: 0 0 0 0px;
+  list-style: none;
+  margin: 2px 0 0 0;
+  display: inline;
+  background: transparent;}
+
+ul#menu li a
+{ font-size: 130%;
+  letter-spacing: -1px;
+  height: 35px;
+  padding: 15px 20px 0 20px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  background: transparent;} 
+
+ul#menu li.current
+{ margin: 2px 0 0 0;}
+
+ul#menu li.current a
+{ text-decoration: underline;}
+
+ul#menu li a:hover
+{ text-decoration: underline;}
 
 #site_content
 { width: 940px;
@@ -300,7 +335,7 @@ ul#nav ul li a:hover, ul#nav li.selected a:hover, ul#nav li.selected a:focus
 
 .sidebar h2
 { padding: 5px 0 0 0;
-  font: normal 140% Arial, Helvetica, sans-serif;
+  font: normal 120% Arial, Helvetica, sans-serif;
   height: 30px;
   text-shadow: 0px -1px 0px #EEE;
   color: #098EFF;}  
@@ -320,21 +355,32 @@ ul#nav ul li a:hover, ul#nav li.selected a:hover, ul#nav li.selected a:focus
   
 .content_image
 { float: left; 
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   margin: 0 20px 10px 0;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;}
-  
+
+.content_image img{
+  width: 100px;
+  height: 100px;
+}
 .content_container
 { width: 100%;
   padding: 5px;
   margin-right: 10px;
   float: left;}
- 
+#content h3{
+  color: #098EFF;
+  font: normal 130% Arial, Helvetica, sans-serif;
+
+} 
 #footer_container
-{ height: 60px;
+{ width: 920px;
+  height: 60px;
+  text-align: center;
+  margin: 0 auto;
   margin-top: 30px;
   background: #098EFF;
   background: -moz-linear-gradient(#43A9FF, #0183F0);
@@ -344,8 +390,9 @@ ul#nav ul li a:hover, ul#nav li.selected a:hover, ul#nav li.selected a:focus
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;} 
  
+ 
 #footer
-{ width: 940px;
+{ width: 920px;
   height: 20px;
   padding-top: 20px;
   text-align: center; 
@@ -454,14 +501,17 @@ ul#nav ul li a:hover, ul#nav li.selected a:hover, ul#nav li.selected a:focus
 
 #slideshow
 { width: 940px;
-  height: 250px;
-  float: left;}  
-  
+  height: 300px;
+  float:left;
+  }  
+
 /* styling for the slideshow on the homepage */
 ul.slideshow {
   list-style: none;
+  margin-top: -10px;
+  margin-left: -10px;
   width: 940px;
-  height: 250px;
+  height: 300px;
   overflow: hidden;
   position: relative;
   margin: 20px 0 0 10px;
@@ -497,6 +547,9 @@ ul img {
  
 #slideshow-caption p {
   padding: 0;
-  font: normal 130% arial, sans-serif;
-  color: #FFF;}
+  font-family: italic;
+  font-size: 22px;
+  color: #FFF;
+  line-height: 1.0em;
+  }
  
