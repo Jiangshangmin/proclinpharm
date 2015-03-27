@@ -89,7 +89,7 @@ ol li
   
 .left {
   float: left;
-  width: 200px;
+  width: 265px;
   text-align: center
 }
 .left H1 {
@@ -100,7 +100,7 @@ ol li
 }
 
 .right {
-  width: 715px;
+  width: 650px;
   float: right;
   
   border-left: solid 2px #f5f5f5;
@@ -112,12 +112,13 @@ ol li
   float: left;
 }
 #localWebsite p.first{
-  font: 19px/1em "avalonMedium", arial, sans-serif;
+  font: 22px/1em "avalonMedium", arial, sans-serif;
   color: #b9b9b9;
   margin-top:10px;
+  margin-bottom: 5px;
 }
 #localWebsite p.last{
-  font: 26px/1em "avalonXlight", arial, sans-serif;
+  font: 22px/1em "avalonXlight", arial, sans-serif;
   color: #bababa;
   
 }
@@ -337,6 +338,7 @@ ul#menu li a:hover
 { padding: 5px 0 0 0;
   font: normal 120% Arial, Helvetica, sans-serif;
   height: 30px;
+  margin-bottom: 0px;
   text-shadow: 0px -1px 0px #EEE;
   color: #098EFF;}  
   
