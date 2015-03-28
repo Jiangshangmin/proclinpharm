@@ -336,11 +336,12 @@ ul#menu li a:hover
 
 .sidebar h2
 { padding: 5px 0 0 0;
-  font: normal 120% Arial, Helvetica, sans-serif;
+  font: normal 110% Arial, Helvetica, sans-serif;
   height: 30px;
   margin-bottom: 0px;
   text-shadow: 0px -1px 0px #EEE;
-  color: #098EFF;}  
+  color: #098EFF;
+}  
   
 .sidebar p
 { color: #1d1d1d;}
